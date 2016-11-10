@@ -1,4 +1,8 @@
 {
   "name": "oxid-esales/oxideshop-project",
-  "type": "project"
+  "type": "project",
+  "license": [
+    "GPL-3.0",
+    "proprietary"
+  ]
 }
