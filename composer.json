@@ -5,5 +5,15 @@
   "license": [
     "GPL-3.0",
     "proprietary"
-  ]
+  ],
+  "minimum-stability": "dev",
+  "prefer-stable": true,
+  "require": {
+    "oxid-esales/oxideshop-metapackage-ce": "dev-master"
+  },
+  "config": {
+    "preferred-install": {
+      "*": "dist"
+    }
+  }
 }
