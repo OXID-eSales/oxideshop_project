@@ -9,7 +9,7 @@
   "minimum-stability": "dev",
   "prefer-stable": true,
   "require": {
-    "oxid-esales/oxideshop-metapackage-ce": "dev-master"
+    "oxid-esales/oxideshop-metapackage-pe": "dev-master"
   },
   "config": {
     "preferred-install": {
