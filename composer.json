@@ -11,7 +11,7 @@
   "repositories": [
     {
       "type": "composer",
-      "url": "https://packages.oxid-esales.com/professional_edition/unencoded/"
+      "url": "https://packages.oxid-esales.com/enterprise_edition/unencoded/"
     }
   ],
   "require": {
