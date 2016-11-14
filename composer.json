@@ -1,6 +1,7 @@
 {
   "name": "oxid-esales/oxideshop-project",
   "type": "project",
+  "description": "This file should be used as an OXID eShop project root composer.json file. Entries provided here intended to be examples and could be changed to your specific needs.",
   "license": [
     "GPL-3.0",
     "proprietary"
