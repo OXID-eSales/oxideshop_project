@@ -8,6 +8,12 @@
   ],
   "minimum-stability": "dev",
   "prefer-stable": true,
+  "repositories": [
+    {
+      "type": "composer",
+      "url": "https://packages.oxid-esales.com/professional_edition/unencoded/"
+    }
+  ],
   "require": {
     "oxid-esales/oxideshop-metapackage-pe": "dev-master"
   },
