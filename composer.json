@@ -9,7 +9,7 @@
   "minimum-stability": "dev",
   "prefer-stable": true,
   "require": {
-    "oxid-esales/oxideshop-metapackage-ce": "dev-b-6.0-beta"
+    "oxid-esales/oxideshop-metapackage-ce": "v6.0-beta.1"
   },
   "config": {
     "preferred-install": {
