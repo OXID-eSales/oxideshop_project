@@ -15,7 +15,7 @@
     }
   ],
   "require": {
-    "oxid-esales/oxideshop-metapackage-ee": "dev-b-6.0-beta"
+    "oxid-esales/oxideshop-metapackage-ee": "v6.0-beta.1"
   },
   "config": {
     "preferred-install": {
