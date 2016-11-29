@@ -11,6 +11,11 @@
   "require": {
     "oxid-esales/oxideshop-metapackage-ce": "v6.0-beta.1"
   },
+  "scripts": {
+    "oe:migration:run": "oe-eshop-facts oe-eshop-db_migrate",
+    "oe:migration:new": "oe-eshop-facts oe-eshop-db_generate_migration",
+    "oe:views:regenerate": "oe-eshop-facts oe-eshop-db_views_regenerate"
+  },
   "config": {
     "preferred-install": {
       "*": "dist"
