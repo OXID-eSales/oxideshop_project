@@ -15,7 +15,7 @@
     }
   ],
   "require": {
-    "oxid-esales/oxideshop-metapackage-ee": "v6.0-beta.1"
+    "oxid-esales/oxideshop-metapackage-ee": "^v6.0-beta.2"
   },
   "scripts": {
     "oe:migration:run": "oe-eshop-facts oe-eshop-db_migrate",
