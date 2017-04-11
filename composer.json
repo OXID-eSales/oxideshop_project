@@ -15,9 +15,32 @@
     }
   ],
   "require": {
-    "oxid-esales/oxideshop-metapackage-ee": "dev-master"
+    "oxid-esales/oxideshop-metapackage-ee": "^v6.0.0-rc.1"
+  },
+  "require-dev": {
+    "oxid-esales/testing-library": "^v2.0.0-rc.1",
+    "oxid-esales/coding-standards": "^v3.0.1",
+    "incenteev/composer-parameter-handler": "~v2.0",
+    "oxid-esales/oxideshop-ide-helper": "^v2.0.3"
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "OxidEsales\\EshopCommunity\\Tests\\": "./vendor/oxid-esales/oxideshop-ce/tests",
+      "OxidEsales\\EshopCommunityTestModule\\": "./vendor/oxid-esales/oxideshop-ce/tests/Integration/Modules/TestDataInheritance/modules"
+    }
   },
   "scripts": {
+    "post-install-cmd": [
+      "Incenteev\\ParameterHandler\\ScriptHandler::buildParameters",
+      "@oe:ide-helper:generate"
+    ],
+    "post-update-cmd": [
+      "Incenteev\\ParameterHandler\\ScriptHandler::buildParameters",
+      "@oe:ide-helper:generate"
+    ],
+    "oe:ide-helper:generate": [
+      "if [ -f ./vendor/bin/oe-eshop-ide_helper ]; then oe-eshop-ide_helper; fi"
+    ],
     "oe:migration:run": "oe-eshop-facts oe-eshop-db_migrate",
     "oe:migration:new": "oe-eshop-facts oe-eshop-db_generate_migration",
     "oe:views:regenerate": "oe-eshop-facts oe-eshop-db_views_regenerate"
@@ -25,6 +48,18 @@
   "config": {
     "preferred-install": {
       "*": "dist"
+    }
+  },
+  "extra": {
+    "incenteev-parameters": {
+      "file": "test_config.yml",
+      "dist-file": "vendor/oxid-esales/testing-library/test_config.yml.dist",
+      "parameter-key": "mandatory_parameters",
+      "env-map": {
+        "shop_path": "SHOP_PATH",
+        "shop_tests_path": "SHOP_TESTS_PATH",
+        "partial_module_paths": "PARTIAL_MODULE_PATHS"
+      }
     }
   }
 }
