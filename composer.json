@@ -11,22 +11,21 @@
   "repositories": [
     {
       "type": "composer",
-      "url": "https://packages.oxid-esales.com/enterprise_edition/unencoded/"
+      "url": "https://enterprise-edition.packages.oxid-esales.com/"
     }
   ],
   "require": {
-    "oxid-esales/oxideshop-metapackage-ee": "^v6.0.0-rc.1"
+    "oxid-esales/oxideshop-metapackage-ee": "^v6.0.0-rc.2"
   },
   "require-dev": {
-    "oxid-esales/testing-library": "^v2.0.0-rc.1",
-    "oxid-esales/coding-standards": "^v3.0.1",
+    "oxid-esales/testing-library": "^v3.0.1",
+    "oxid-esales/coding-standards": "^v3.0.3",
     "incenteev/composer-parameter-handler": "~v2.0",
-    "oxid-esales/oxideshop-ide-helper": "^v2.0.3"
+    "oxid-esales/oxideshop-ide-helper": "^v3.0.0-beta.2"
   },
   "autoload-dev": {
     "psr-4": {
-      "OxidEsales\\EshopCommunity\\Tests\\": "./vendor/oxid-esales/oxideshop-ce/tests",
-      "OxidEsales\\EshopCommunityTestModule\\": "./vendor/oxid-esales/oxideshop-ce/tests/Integration/Modules/TestDataInheritance/modules"
+      "OxidEsales\\EshopCommunity\\Tests\\": "./vendor/oxid-esales/oxideshop-ce/tests"
     }
   },
   "scripts": {
@@ -41,9 +40,9 @@
     "oe:ide-helper:generate": [
       "if [ -f ./vendor/bin/oe-eshop-ide_helper ]; then oe-eshop-ide_helper; fi"
     ],
-    "oe:migration:run": "oe-eshop-facts oe-eshop-db_migrate",
-    "oe:migration:new": "oe-eshop-facts oe-eshop-db_generate_migration",
-    "oe:views:regenerate": "oe-eshop-facts oe-eshop-db_views_regenerate"
+    "oe:migration:run": "oe-eshop-doctrine_migration migrations:migrate",
+    "oe:migration:new": "oe-eshop-doctrine_migration migrations:generate",
+    "oe:views:regenerate": "oe-eshop-db_views_regenerate"
   },
   "config": {
     "preferred-install": {
