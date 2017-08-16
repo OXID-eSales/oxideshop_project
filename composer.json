@@ -15,7 +15,8 @@
     "oxid-esales/testing-library": "^v3.0.1",
     "oxid-esales/coding-standards": "^v3.0.3",
     "incenteev/composer-parameter-handler": "~v2.0",
-    "oxid-esales/oxideshop-ide-helper": "^v3.0.0-beta.2"
+    "oxid-esales/oxideshop-ide-helper": "^v3.0.0-beta.2",
+    "oxid-esales/azure-theme": "^v1.4.1"
   },
   "autoload-dev": {
     "psr-4": {
