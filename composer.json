@@ -9,10 +9,10 @@
   "minimum-stability": "dev",
   "prefer-stable": true,
   "require": {
-    "oxid-esales/oxideshop-metapackage-ce": "^v6.0.0-rc.2"
+    "oxid-esales/oxideshop-metapackage-ce": "^v6.0.0-rc.3"
   },
   "require-dev": {
-    "oxid-esales/testing-library": "^v3.0.1",
+    "oxid-esales/testing-library": "^v3.2.0",
     "oxid-esales/coding-standards": "^v3.0.3",
     "incenteev/composer-parameter-handler": "~v2.0",
     "oxid-esales/oxideshop-ide-helper": "^v3.0.0-beta.2",
