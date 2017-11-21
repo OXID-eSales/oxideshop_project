@@ -6,8 +6,7 @@
     "GPL-3.0",
     "proprietary"
   ],
-  "minimum-stability": "dev",
-  "prefer-stable": true,
+  "minimum-stability": "stable",
   "repositories": [
     {
       "type": "composer",
@@ -15,13 +14,13 @@
     }
   ],
   "require": {
-    "oxid-esales/oxideshop-metapackage-ee": "^v6.0.0-rc.3"
+    "oxid-esales/oxideshop-metapackage-ee": "^v6.0.0"
   },
   "require-dev": {
     "oxid-esales/testing-library": "^v3.2.0",
     "oxid-esales/coding-standards": "^v3.0.3",
     "incenteev/composer-parameter-handler": "~v2.0",
-    "oxid-esales/oxideshop-ide-helper": "^v3.0.0-beta.2",
+    "oxid-esales/oxideshop-ide-helper": "^v3.0.0",
     "oxid-esales/azure-theme": "^v1.4.1"
   },
   "autoload-dev": {
@@ -40,10 +39,7 @@
     ],
     "oe:ide-helper:generate": [
       "if [ -f ./vendor/bin/oe-eshop-ide_helper ]; then oe-eshop-ide_helper; fi"
-    ],
-    "oe:migration:run": "oe-eshop-doctrine_migration migrations:migrate",
-    "oe:migration:new": "oe-eshop-doctrine_migration migrations:generate",
-    "oe:views:regenerate": "oe-eshop-db_views_regenerate"
+    ]
   },
   "config": {
     "preferred-install": {
