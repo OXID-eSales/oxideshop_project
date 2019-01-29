@@ -14,14 +14,14 @@
     }
   ],
   "require": {
-    "oxid-esales/oxideshop-metapackage-ee": "v6.1.1"
+    "oxid-esales/oxideshop-metapackage-ee": "v6.1.2"
   },
   "require-dev": {
-    "oxid-esales/testing-library": "^v5.0.3",
+    "oxid-esales/testing-library": "^v5.0.4",
     "oxid-esales/coding-standards": "^v3.0.5",
     "incenteev/composer-parameter-handler": "~v2.0",
-    "oxid-esales/oxideshop-ide-helper": "^v3.1.1",
-    "oxid-esales/azure-theme": "^v1.4.1"
+    "oxid-esales/oxideshop-ide-helper": "^v3.1.2",
+    "oxid-esales/azure-theme": "^v1.4.2"
   },
   "autoload-dev": {
     "psr-4": {
