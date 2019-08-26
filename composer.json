@@ -6,7 +6,7 @@
     "GPL-3.0-only",
     "proprietary"
   ],
-  "minimum-stability": "beta",
+  "minimum-stability": "dev",
   "repositories": [
     {
       "type": "composer",
@@ -17,7 +17,7 @@
     "oxid-esales/oxideshop-metapackage-ee": "v6.2.0-beta.1"
   },
   "require-dev": {
-    "oxid-esales/testing-library": "^v6.0.0",
+    "oxid-esales/testing-library": "dev-b-6.x",
     "incenteev/composer-parameter-handler": "^v2.0.0",
     "oxid-esales/oxideshop-ide-helper": "^v3.1.2",
     "oxid-esales/azure-theme": "^v1.4.2"
