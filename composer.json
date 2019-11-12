@@ -6,7 +6,7 @@
     "GPL-3.0-only",
     "proprietary"
   ],
-  "minimum-stability": "dev",
+  "minimum-stability": "RC",
   "repositories": [
     {
       "type": "composer",
