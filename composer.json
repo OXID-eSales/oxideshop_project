@@ -14,7 +14,7 @@
     }
   ],
   "require": {
-    "oxid-esales/oxideshop-metapackage-pe": "v6.2.0-rc.1"
+    "oxid-esales/oxideshop-metapackage-pe": "v6.2.0-rc.2"
   },
   "require-dev": {
     "oxid-esales/testing-library": "^v7.0.1",
