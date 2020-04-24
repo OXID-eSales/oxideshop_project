@@ -5,7 +5,7 @@
   "license": [
     "GPL-3.0-only"
   ],
-  "minimum-stability": "RC",
+  "minimum-stability": "stable",
   "require": {
     "oxid-esales/oxideshop-metapackage-ce": "v6.2.0"
   },
