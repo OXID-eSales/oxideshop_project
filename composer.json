@@ -12,7 +12,7 @@
   "require-dev": {
     "oxid-esales/testing-library": "^v7.1.1",
     "incenteev/composer-parameter-handler": "^v2.0.0",
-    "oxid-esales/oxideshop-ide-helper": "^v3.1.2",
+    "oxid-esales/oxideshop-ide-helper": "^v4.0.0",
     "oxid-esales/azure-theme": "^v1.4.2"
   },
   "autoload-dev": {
