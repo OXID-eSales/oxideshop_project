@@ -14,10 +14,10 @@
     }
   ],
   "require": {
-    "oxid-esales/oxideshop-metapackage-ee": "v6.3.0"
+    "oxid-esales/oxideshop-metapackage-ee": "v6.3.1"
   },
   "require-dev": {
-    "oxid-esales/testing-library": "^v8.0.0",
+    "oxid-esales/testing-library": "^v8.0.2",
     "incenteev/composer-parameter-handler": "^v2.0.0",
     "oxid-esales/oxideshop-ide-helper": "^v4.1.0",
     "oxid-esales/azure-theme": "^v1.4.2"
