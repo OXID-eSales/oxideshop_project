@@ -7,7 +7,7 @@
   ],
   "minimum-stability": "stable",
   "require": {
-    "oxid-esales/oxideshop-metapackage-ce": "v6.4.1"
+    "oxid-esales/oxideshop-metapackage-ce": "v6.4.2"
   },
   "require-dev": {
     "oxid-esales/testing-library": "^v8.1.0",
