@@ -5,14 +5,14 @@
   "license": [
     "GPL-3.0-only"
   ],
-  "minimum-stability": "stable",
+  "minimum-stability": "dev",
   "require": {
-    "oxid-esales/oxideshop-metapackage-ce": "v6.4.2"
+    "oxid-esales/oxideshop-metapackage-ce": "dev-b-6.5"
   },
   "require-dev": {
-    "oxid-esales/testing-library": "^v8.1.0",
+    "oxid-esales/testing-library": "dev-b-6.5.x",
     "incenteev/composer-parameter-handler": "^v2.0.0",
-    "oxid-esales/oxideshop-ide-helper": "^v4.1.0",
+    "oxid-esales/oxideshop-ide-helper": "dev-b-6.5.x",
     "oxid-esales/azure-theme": "^v1.4.2"
   },
   "autoload-dev": {
