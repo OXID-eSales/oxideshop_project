@@ -7,13 +7,13 @@
   ],
   "minimum-stability": "dev",
   "require": {
-    "oxid-esales/oxideshop-metapackage-ce": "dev-b-7.0"
+    "oxid-esales/oxideshop-metapackage-ce": "v7.0.0-rc.1"
   },
   "require-dev": {
-    "oxid-esales/testing-library": "dev-b-7.0.x",
+    "oxid-esales/testing-library": "^v9.0.0",
     "incenteev/composer-parameter-handler": "^v2.1.0",
     "oxid-esales/oxideshop-ide-helper": "^v5.0.0",
-    "oxid-esales/azure-theme": "dev-master"
+    "oxid-esales/azure-theme": "^v2.0.0"
   },
   "autoload-dev": {
     "psr-4": {
