@@ -3,7 +3,7 @@
   "type": "project",
   "description": "This file should be used as an OXID eShop project root composer.json file. Entries provided here intended to be examples and could be changed to your specific needs.",
   "license": "proprietary",
-  "minimum-stability": "dev",
+  "minimum-stability": "stable",
   "repositories": [
     {
       "type": "composer",
@@ -11,7 +11,7 @@
     }
   ],
   "require": {
-    "oxid-esales/oxideshop-metapackage-pe": "dev-b-7.0"
+    "oxid-esales/oxideshop-metapackage-pe": "v7.0.0"
   },
   "autoload-dev": {
     "psr-4": {
