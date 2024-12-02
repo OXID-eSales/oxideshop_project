@@ -5,7 +5,7 @@
   "license": "proprietary",
   "minimum-stability": "stable",
   "require": {
-    "oxid-esales/oxideshop-metapackage-ce": "v7.0.3"
+    "oxid-esales/oxideshop-metapackage-ce": "v7.0.4"
   },
   "autoload-dev": {
     "psr-4": {
