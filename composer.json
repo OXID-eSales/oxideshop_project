@@ -11,7 +11,7 @@
         }
     ],
     "require": {
-        "oxid-esales/oxideshop-metapackage-pe": "v7.5.1"
+        "oxid-esales/oxideshop-metapackage-pe": "v7.5.2"
     },
     "autoload-dev": {
         "psr-4": {
